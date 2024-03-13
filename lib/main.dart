@@ -1,20 +1,16 @@
-// import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home_screen.dart';
 import 'package:flutter_application_1/child/child_login_screen.dart';
+import 'package:flutter_application_1/firebase_options.dart';
+import 'package:flutter_application_1/home_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  try {
-  // Your Firebase code here
-  // WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp();
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+     options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(const MyApp());
-} catch (e, stackTrace) {
-  // Log the error
-  print('Error: $e\nStacktrace: $stackTrace');
-}
-
 }
 
 class MyApp extends StatelessWidget {
@@ -33,8 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen()
+      home:LoginScreen(),
     );
   }
 }
-

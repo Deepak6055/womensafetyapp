@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "155682233927",
-    "project_id": "womensafety-34245",
-    "storage_bucket": "womensafety-34245.appspot.com"
+    "project_number": "177284961273",
+    "project_id": "women-safety-sos-aac37",
+    "storage_bucket": "women-safety-sos-aac37.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:155682233927:android:1693c5a7ad076ebd079b62",
+        "mobilesdk_app_id": "1:177284961273:android:4e03152dcaae5382982328",
         "android_client_info": {
           "package_name": "com.example.flutter_application_1"
         }
@@ -15,7 +15,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDT8hE6c8qTjcLL7QH80rbfeL6hTspCA9g"
+          "current_key": "AIzaSyCw7ae4EYx5gkdFJV4Fc2dnCiBTvssTYeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177284961273:android:8653f2c369011334982328",
+        "android_client_info": {
+          "package_name": "com.example.women_safety_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw7ae4EYx5gkdFJV4Fc2dnCiBTvssTYeI"
         }
       ],
       "services": {
